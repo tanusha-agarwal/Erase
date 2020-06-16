@@ -4,7 +4,15 @@
     tools:context="com.example.erase.Places">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="2"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/log_out"
+        android:orderInCategory="1"
+        android:title="@string/log_out"
+        app:showAsAction="never"
+        />
+
+
 </menu>
