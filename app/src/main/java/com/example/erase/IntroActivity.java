@@ -106,6 +106,13 @@ public class IntroActivity extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
                 if(tab.getPosition()==mList.size()-1)
                     loadLastScreen();
+                else
+                {
+                    Next.setVisibility(View.VISIBLE);
+                    btn_GetStarted.setVisibility(View.INVISIBLE);
+                    tabIndicator.setVisibility(View.VISIBLE);
+
+                }
             }
 
             @Override
