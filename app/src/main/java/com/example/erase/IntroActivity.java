@@ -67,9 +67,9 @@ public class IntroActivity extends AppCompatActivity {
 
         //fill list screen
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Recycle"," Find nearest e-waste recycling collection centers ",R.drawable.img1));
-        mList.add(new ScreenItem("Sell and Buy"," Sell and purchase second hand electronic products",R.drawable.img2));
-        mList.add(new ScreenItem("Repair","Easily find contact details of nearest repair shops",R.drawable.img3));
+        mList.add(new ScreenItem("Recycle"," Find nearest e-waste collection centers so that you dispose your e-waste safely. It can be a recycling unit or a drop box that collects e-waste.",R.drawable.img1));
+        mList.add(new ScreenItem("Sell and Buy"," Post your products that you don't need anymore but maybe of use to someone else Or Buy second hand electronic items that are posted.",R.drawable.img2));
+        mList.add(new ScreenItem("Repair","Easily find contact details of nearest repair shops and get your electronic items repaired. ",R.drawable.img3));
 
 
         //setup Viewpager

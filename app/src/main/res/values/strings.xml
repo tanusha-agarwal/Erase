@@ -110,5 +110,6 @@
     <string name="place">Stores</string>
     <string name="buy">Buy</string>
     <string name="user">User</string>
-    <string name="sell">Sell</string>
+    <string name="repair">Repair</string>
+    <string name="search">Search</string>
 </resources>
